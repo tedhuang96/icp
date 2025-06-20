@@ -2,6 +2,15 @@
 [WAFR24] Interaction-aware Conformal Prediction for Crowd Navigation
 
 # Setup
+
+Download `gst_results.zip` from the [google drive link](https://drive.google.com/file/d/1WKgJ2w2UEf5syUAxvXofWiZX-KB62546/view?usp=drive_link). Then run
+```
+mv gst_results.zip icp/gst/
+cd icp/gst/
+unzip gst_results.zip
+```
+You will see folder `icp/gst/results`.
+
 Run
 ```
 conda create -n icp python=3.9.0
